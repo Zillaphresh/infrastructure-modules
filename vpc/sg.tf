@@ -43,6 +43,6 @@ resource "aws_security_group" "vpc-sg" {
   }
 
   tags = {
-    Name = "${env}-allow_tls"
+    Name = "${env}-allowed_tls"
   }
 }

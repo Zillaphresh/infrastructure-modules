@@ -59,6 +59,6 @@ resource "aws_security_group" "eks-sg" {
   }
 
   tags = {
-    Name = "${env}-allow_tls"
+    Name = "${var.env}-allow_tls"
   }
 }
